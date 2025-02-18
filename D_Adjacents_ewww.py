@@ -1,6 +1,4 @@
-def Adjacent(n):
-
-       
+def Adjacent(n):      
         if n ==1:
             print(1)
             return
@@ -17,13 +15,6 @@ def Adjacent(n):
                 matrix[r][c] = nums[index]
                 index +=1
 
-
-        # for r in range(n):
-        #     for c in range(n):
-        #         if (r+c) %2 ==1:
-        #             matrix[r][c] = num
-        #             num +=1
-        
         for r in range(len(matrix)):
             for c in range(len(matrix[r])):
                 print(matrix[r][c],end=' ')

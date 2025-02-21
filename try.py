@@ -1,3 +1,3 @@
-from collections import Counter
-
-print(Counter("ATTECDSAGEW"))
+grid = [[0]]*5
+grid[0][0] =1
+print(grid)

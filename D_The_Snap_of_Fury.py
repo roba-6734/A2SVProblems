@@ -10,7 +10,7 @@ for i in range(n):
         diff[start] += 1
         diff[i] -= 1  
 
-
+print(diff)
 destroyed = [0] * n
 current = 0
 for i in range(n):
